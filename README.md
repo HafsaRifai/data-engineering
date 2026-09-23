@@ -24,4 +24,4 @@ medallion / raw-clean-gold pattern.
 ## Daily log
 | Day | Date | Summary | Commit |
 |-----|------|---------|--------|
-| 1   |      |         |        |
+| 1   | 2026-09-23 | Loaded orders.csv, corrected schema (order_ts/updated_ts parsing, quantity/unit_price casts), computed revenue by store in SQL and PySpark, joined top 10 products by revenue, ran data quality baseline scan (789 malformed order_ts, negative qty, missing product IDs, unknown customers, duplicate order IDs), documented SQL vs PySpark tradeoffs | db8e60272a9dd4f5ea0beb148bd69df44daeffa9 |
