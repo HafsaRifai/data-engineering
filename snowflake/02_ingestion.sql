@@ -1,0 +1,2 @@
+-- 02_ingestion.sql
+-- TODO: implement -- see snowflake/README.md for this file's scope

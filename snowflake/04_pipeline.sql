@@ -1,0 +1,2 @@
+-- 04_pipeline.sql
+-- TODO: implement -- see snowflake/README.md for this file's scope
